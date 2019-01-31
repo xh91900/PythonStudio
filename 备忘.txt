@@ -64,8 +64,18 @@ Production: https://api.havail.sabre.com
 SOAP
 Certification/Test: https://sws-crt.cert.havail.sabre.com
 Production: https://webservices.havail.sabre.com
+Step 1:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/OTA_HotelAvailLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/OTA_HotelAvailLLS2.3.0RQ.wsdl
+Step 2:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/HotelPropertyDescriptionLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/HotelPropertyDescriptionLLS2.3.0RQ.wsdl
+Step 3:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/HotelRateDescriptionLLSRQ.cs http://wsdl-crt.cert.sabre.com/wsdl/tpfc/HotelRateDescriptionLLS2.3.0RQ.wsdl
+Step 4:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/PassengerDetailsRQ.cs http://files.developer.sabre.com/wsdl/sabreXML1.0.00/ServicesPlatform/PassengerDetails3.3.0RQ.wsdl
+Step 5:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/OTA_HotelResLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/OTA_HotelResLLS2.2.0RQ.wsdl
+Step 6:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/EndTransactionLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/EndTransactionLLS2.0.9RQ.wsdl
+/language:C# 　　 指定编程语言为 C#
+/n:Demo   　         指定名称空间为 Demo
+/out:　　  　　       指定文件保存路径和文件名 d:/TestService.cs
 
 用户名cwt-china, 密码： cwt@2018
+当时我注册的，请看一下是否为  jijun.meng@carlsonwagonlit.com.cn
 echo -n `echo -n "V1:vo2py23y3o4q2wbn:DEVCENTER:EXT" | base64`:`echo -n "rEO9Fc2k" | base64` |base64
 Client ID:
     V1:vo2py23y3o4q2wbn:DEVCENTER:EXT
