@@ -1,37 +1,8 @@
-winvss：xhaiqing/xhq123!@#
-svn:xianghaiqing/xianghaiqing
-企业商旅通：h5xhcs/12345a  行后审批
-shanglvtong/12345a
-h5xqcs/123456 行前审批
-openVPN账号：xianghaiqing    OTPLyC3JotH8ah3B
-app接口测试工具
-gongyingshang   12345a
-H5TMC_8199
-h5.yeetm.com
-腾讯地图key：K3MBZ-NF4AW-TQVRM-OA7FL-3QKUZ-B2B4R
-企业商旅通小程序地图key:Z3NBZ-65YRV-RLAPG-UUFGS-YBH7H-3IF53
 N核服务器，通过执行业务的单线程分析出本地计算时间为x，等待时间为y，则工作线程数（线程池线程数）设置为 N*(x+y)/x，能让CPU的利用率最大化。
 await：开启task的时候是主线程遇到就返回（异步线程执行task里的内容），调用async的时候放前面是等待结果。
-[YeeSkyGo].[dbo].[T_SupplementOrderList]
+
 var j=JSON.stringify(p);
 <block/> 并不是一个组件，它仅仅是一个包装元素，不会在页面中做任何渲染，只接受控制属性。
----生产环境
-192.168.50.10:3389
-administrator
-zxcvGY&89
-
-http://qy.yeetm.com
-nonghang
-caissa321
-
-
-https://h5.yeetm.com?wxlocation={{wxlocation}}
-yuntest/12345a
-
-http://manage.yeegoyun.com:8102/Framework/Login.aspx
-hqxiang/hq12345a
-
-sc create "Memcached_11211" start= auto binPath= "D:\安装包\memcached\memcached.exe -d runservice -m 120 -p 11211 -l 127.0.0.1" DisplayName= "Memcached_11211"
 
     //获取当前日期
     var nowDate = new Date();
@@ -47,57 +18,4 @@ sc create "Memcached_11211" start= auto binPath= "D:\安装包\memcached\memcach
     var nowMonth = (nowDate.getMonth() + 1).toString().length == 1 ? ("0" + (nowDate.getMonth() + 1)) : (nowDate.getMonth() + 1);
     var nowDay = nowDate.getDate().toString().length == 1 ? ("0" + nowDate.getDate()) : nowDate.getDate();
 
-create or replace view v_huazhuhotelservice as
-select a.HOTELNO,a.hotelname,a.hotelnameen,a.elhotelid,a.brandcode,a.brandname,a.provinceno,a.provincename,a.cityno,a.cityname,a.cityarea,
-a.hoteladdress,a.hoteladdressen,a.hoteladdresstip,a.roomnum,a.hotelwordintroduce,a.longitude,a.latitude,a.operatescope,a.isopening,a.hotelclassification
-,a.status,nvl(a.reviewgood,1)+nvl(a.reviewpoor,0) reviewcount,nvl(a.reviewgood,0) reviewgood,
-case when a.reviewgood > 0 then
-nvl(a.reviewgood,1)/nvl(a.reviewgood,0)+nvl(a.reviewpoor,1) else 0 end reviewper,nvl(s.SummaryScore,0) as SummaryScore,nvl(s.instantconfirmscore,0) as instantconfirmscore,nvl(s.instantconfirmrate,0) as instantconfirmrate,
-nvl(s.bookingsuccessscore,0) as bookingsuccessscore,nvl(s.bookingsuccessrate,0) as bookingsuccessrate,nvl(s.complaintscore,0) as complaintscore
-,nvl(s.complaintrate,0) as complaintrate, 0 as MinPrice
- from huazhu_hotel a left join servicerank s on s.hotelid = a.hotelno left join StaticRate sr on a.hotelno = sr.hotelid;
-6057.47+6919.6=12977.07
 
-REST
-Certification/Test: https://api-crt.cert.havail.sabre.com
-Production: https://api.havail.sabre.com
-SOAP
-Certification/Test: https://sws-crt.cert.havail.sabre.com
-Production: https://webservices.havail.sabre.com
-Step 1:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/OTA_HotelAvailLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/OTA_HotelAvailLLS2.3.0RQ.wsdl
-Step 2:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/HotelPropertyDescriptionLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/HotelPropertyDescriptionLLS2.3.0RQ.wsdl
-Step 3:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/HotelRateDescriptionLLSRQ.cs http://wsdl-crt.cert.sabre.com/wsdl/tpfc/HotelRateDescriptionLLS2.3.0RQ.wsdl
-Step 4:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/PassengerDetailsRQ.cs http://files.developer.sabre.com/wsdl/sabreXML1.0.00/ServicesPlatform/PassengerDetails3.3.0RQ.wsdl
-Step 5:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/OTA_HotelResLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/OTA_HotelResLLS2.2.0RQ.wsdl
-Step 6:wsdl /language:c# /n:Demo /out:C:/Users/user/Desktop/sabre/EndTransactionLLSRQ.cs http://webservices.sabre.com/wsdl/tpfc/EndTransactionLLS2.0.9RQ.wsdl
-/language:C# 　　 指定编程语言为 C#
-/n:Demo   　         指定名称空间为 Demo
-/out:　　  　　       指定文件保存路径和文件名 d:/TestService.cs
-
-用户名cwt-china, 密码： cwt@2018
-当时我注册的，请看一下是否为  jijun.meng@carlsonwagonlit.com.cn
-echo -n `echo -n "V1:vo2py23y3o4q2wbn:DEVCENTER:EXT" | base64`:`echo -n "rEO9Fc2k" | base64` |base64
-Client ID:
-    V1:vo2py23y3o4q2wbn:DEVCENTER:EXT
-    
-Client Secret:
-    rEO9Fc2k 
-Status:
-    active 
-	altman:x:500:500::/home/altman:/usr/local/git/bin/git-shell
-https://api-crt.cert.havail.sabre.com/v2/auth/token
-token credentials: VmpFNmRtOHljSGt5TTNremJ6UnhNbmRpYmpwRVJWWkRSVTVVUlZJNlJWaFU6Y2tWUE9VWmpNbXM9
-				   VmpFNmRtOHljSGt5TTNremJ6UnhNbmRpYmpwRVJWWkRSVTVVUlZJNlJWaFU6Y2tWUE9VWmpNbXM9
-				   VmpFNmRtOHljSGt5TTNremJ6UnhNbmRpYmpwRVJWWkRSVTVVUlZJNlJWaFU6Y2tWUE9VWmpNbXM9
-
-{
-    "access_token": "T1RLAQKOT1AFeiN41LkJy8lgWmdA7P3pURA3dOFhDhpk05tbl57r/OAyAADA2fuRVHBYhJm031sUB35I3i3hZihikH7oUcji66DnPjb3e23NnQRR6B3Yq3LbCCzKsJyNw4l7n4ekW9KTOeZCasn9WpttTO6jxTLdrAfYinHxU5prBxeogIlF1/i2ZCEio4twrYEXJn1qCrNFJ99bINmO7W1SCuHcPR7aieo2uBqDKgp+tBQTQZJMOBtniE/jQc2qYgak4f4+ZuHqWrmpaGyiQemEFcxehptJj3g1gvbhTgRlkjpUuXIUyhzRCud/",
-    "token_type": "bearer",
-    "expires_in": 604800
-}
-
-{
-    "access_token": "T1RLAQJMWUdh+0oV6Z3F3R+pJFrdsZu+8hALYVhTjgqWCSs9Oc5joEkVAADAgvJyWEPZzKFBKdZhnVR74Ohcfgaq7QqPuQOaDEMlAcqwR1SfQrmy1zcdrACTgXav1BHX1HA1wPBXHTz+SGYeul4U9rExjCkXiqhOBpyGWBdvgyagCRyiTyofvMA5rtzmB1trk4WlyvIXt85nQdWOZFi+o9UU5YPzYPEHMWlcJtS3bd2ic8pr9Li68yedWZf1Vp0svGHzy99cYE8sdOZGy/3DSjblU/comltbua9WlgJEK8/0T52SPp8eLmZhovIt",
-    "token_type": "bearer",
-    "expires_in": 604800
-}
